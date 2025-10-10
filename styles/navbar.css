@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+  background: linear-gradient(90deg, #000, #434343);
+  color: white;
+  font-family: "Pixelify Sans",Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255) ;
+    margin: 10px;
+    padding: 0 16px;
+    transition: 0.2s; /*transição pra quando sair do hover */
+    opacity: 0.8; 
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px 16px;
+    opacity: 1;
+}
+.navbar ul a:hover{
+    background-color: white;
+    color:black;
+}
+.navbar:hover{
+    transition: 0.2s;
+    opacity: 1;
+
+}
+#nomeloja{
+    padding: 16px;
+}

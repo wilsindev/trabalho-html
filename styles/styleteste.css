@@ -1,0 +1,41 @@
+.silksong-img{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.silksong-img img{
+    border-radius: 20px;
+}
+.hollowss-name{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.hollowss-name a{
+    text-decoration: none;
+    color: white;
+}
+.ER-img{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 60px;
+    height: 50px;
+}
+.ER-img img{
+    border-radius: 20px;
+    height: 183px;
+    width: 183px;
+    height: 275px;
+}
+.ER-name{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 40px;
+    margin-top: px;
+}
+.ER-name a{
+    text-decoration: none;
+    color: white;
+}
