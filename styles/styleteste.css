@@ -15,6 +15,14 @@
     text-decoration: none;
     color: white;
 }
+.Jogos{
+    display: flex;
+    gap: 40px;
+}
+.ER{
+    width: 223px;
+    height: 329px;
+}
 .ER-img{
     display: flex;
     margin-left: 40px;
@@ -30,10 +38,8 @@
 }
 .ER-name{
     display: flex;
-    position: absolute;
-    bottom: 20px;
     margin-left: 40px;
-    margin-top: px;
+    margin-top: 241px;
 }
 .ER-name a{
     text-decoration: none;
