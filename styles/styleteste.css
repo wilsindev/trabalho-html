@@ -1,76 +1,29 @@
-.silksong-img{
-    display: flex;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-.silksong-img img{
-    border-radius: 20px;
-}
-.hollowss-name{
-    display: flex;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-.hollowss-name a{
-    text-decoration: none;
-    color: white;
-}
 .Jogos{
     display: flex;
     gap: 40px;
 }
-.ER{
-    width: 223px;
-    height: 329px;
-}
-.ER-img{
+.Game-img{
     display: flex;
     margin-left: 40px;
     margin-top: 20px;
     width: 183px;
     height: 280px;
 }
-.ER-img img{
+.Game-img img{
     border-radius: 20px;
     width: 183px;
     height: 275px;
 }
-.ER-name{
+.Game-name{
     display: flex;
-    margin-left: 40px;
+    margin-left: 45px;
     margin-top: 10px;
 }
-.ER-name a{
+.Game-name a{
     text-decoration: none;
     color: white;
 }
-.RDR{
-    width: 223px;
-    height: 329px;
-}
-.RDR-img{
-    display: flex;
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 183px;
-    height: 280px;
-}
-.RDR-img  img{
-    border-radius: 20px;
-    width: 183px;
-    height: 275px;
-}
-.RDR-name{
-    display: flex;
-    margin-left: 40px;
-    margin-top: 10px;
-    transition: 0.3s;
-}
-.RDR-name a{
-    text-decoration: none;
-    color: white;
-}
-.RDR-name:hover{
+.Game-name:hover{
     scale: 1.1;
     transition: 0.3s;
 }
