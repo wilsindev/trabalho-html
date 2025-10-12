@@ -27,21 +27,50 @@
     display: flex;
     margin-left: 40px;
     margin-top: 20px;
-    width: 60px;
-    height: 50px;
+    width: 183px;
+    height: 280px;
 }
 .ER-img img{
     border-radius: 20px;
-    height: 183px;
     width: 183px;
     height: 275px;
 }
 .ER-name{
     display: flex;
     margin-left: 40px;
-    margin-top: 241px;
+    margin-top: 10px;
 }
 .ER-name a{
     text-decoration: none;
     color: white;
+}
+.RDR{
+    width: 223px;
+    height: 329px;
+}
+.RDR-img{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 183px;
+    height: 280px;
+}
+.RDR-img  img{
+    border-radius: 20px;
+    width: 183px;
+    height: 275px;
+}
+.RDR-name{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.RDR-name a{
+    text-decoration: none;
+    color: white;
+}
+.RDR-name:hover{
+    scale: 1.1;
+    transition: 0.3s;
 }
