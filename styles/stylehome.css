@@ -1,14 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    overflow: hidden;
+}
 .text{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    font-family: "Pixelify Sans";
+    height: 12.5rem;
+    width: 31.25rem;
+    font-family: "Poppins", sans-serif;
+    margin-left: 31.25rem;
 }
 .emojis{
     display: flex;
-    width: 1300px;
-    height: 300px;
+    width: 81.25rem;
+    height: 18.75rem;
 }
 #mala{
     position: relative;
@@ -16,21 +24,22 @@
 }
 #surprise{
     position: relative;
-    left: 400px;  /*distancia da esquerda da posição normal do elemento */
+    left: 25rem;  /*distancia da esquerda da posição normal do elemento */
 }
 #botaoentrar {
     display: inline-block;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
+    width: 5rem;
+    height: 1.875rem;
+    line-height: 1.875; /* equivale a 30px, só que flexível */
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: #0f0f13;
     color: white;
     text-decoration: none;
     cursor: pointer;
     border: solid 1px;
     transition: 0.4s;
+    font-family: "Pixelify Sans",Arial, sans-serif;
 }
 #botaoentrar:hover{
     color: black;
@@ -39,4 +48,3 @@
     transition: 0.4s;
     scale: 1.3;
 }
-

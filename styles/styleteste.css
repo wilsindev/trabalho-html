@@ -1,29 +1,36 @@
 .Jogos{
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 2.5rem;
 }
 .Game-img{
-    display: flex;
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
     width: 183px;
     height: 280px;
+    transition: 0.3s;
 }
 .Game-img img{
-    border-radius: 20px;
+    border-radius: 1.25rem;
     width: 183px;
     height: 275px;
 }
 .Game-name{
-    display: flex;
-    margin-left: 45px;
-    margin-top: 10px;
+    margin-left: 2.813rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.3125rem;
+    transition: 0.3s;
 }
 .Game-name a{
     text-decoration: none;
     color: white;
+
 }
 .Game-name:hover{
     scale: 1.1;
+    transition: 0.3s;
+}
+.Game-img:hover{
+    scale: 1.05;
     transition: 0.3s;
 }
