@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
 }
 .Game-img{
-    margin-left: 2.5rem;
     margin-top: 2.5rem;
     width: 183px;
     height: 280px;
@@ -16,7 +17,6 @@
     height: 275px;
 }
 .Game-name{
-    margin-left: 2.813rem;
     margin-top: 0.625rem;
     margin-bottom: 0.3125rem;
     transition: 0.3s;
@@ -33,4 +33,8 @@
 .Game-img:hover{
     scale: 1.05;
     transition: 0.3s;
+}
+.preco{
+    position: relative;
+    top: -13px;
 }

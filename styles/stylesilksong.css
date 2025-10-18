@@ -1,8 +1,8 @@
-#nomeloja{
-    padding: 16px;
+.Game-infos{
+    display: flex;
+    flex-wrap: wrap;
 }
 .game-img{ /* aqui mexemos no container do jogo */
-    display: flex;
     height: 300px;
     width: 300px;
     margin-left: 50px;
@@ -12,43 +12,26 @@
     border-radius: 20px;
 }
 .stores{
-    display: flex;
     position: relative;
     flex-direction: column;
     right: 655px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    gap: 1rem;
 }
 .stores a{
     text-decoration: none;
 }
-.playstation img{
+.store img{
     height: 40px;
     width: 40px;
     margin-right: 10px;
     border-radius: 20px;
-}
-#preco-ps{
-    position: relative;
-    top: -13px;
-}
-.steam img{
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-    border-radius: 20px;
-}
-#preco-steam{
-    position: relative;
-    top: -13px;
 }
 .banner-game{
-    display: flex;
-    position: relative;
     width: 700px;
     height: 400px;
-    left: 800px;
-    bottom: 450px;
+    margin-top: 0.625rem;
+    margin-left: 14rem;
 }
 .banner-game img{
     border-radius: 24px;

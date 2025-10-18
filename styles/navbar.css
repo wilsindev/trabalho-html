@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* rem = numero de pixels / 16 ( base padrao)  seu uso aumenta a responsabilidade*/
 /* Trocar tudo que é margem, altura, border-radius e espaçamentos externos para rem.
@@ -7,7 +8,8 @@ Trocar paddings internos que são relativos à fonte do elemento para em (como o
 
 Bordas podem ficar em px, que é comum. */
 body {
-  background: #101014;
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-efeito-vhs_23-2150130954.jpg);
+  background-size: cover;
   color: white;
   text-align: center;
   padding: 0;
@@ -25,13 +27,13 @@ body {
     transition: 0.2s; /*transição pra quando sair do hover */
     opacity: 0.8; 
     font-family: "Pixelify Sans",Arial, sans-serif;
+    transition: 0.3s;
 }
 .navbar ul{
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
-    
 }
 
 .navbar ul a{
@@ -39,7 +41,7 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 1em 1em;
+    padding: 1em;
     opacity: 1;
 }
 .navbar ul a:hover{
@@ -47,7 +49,7 @@ body {
     color:black;
 }
 .navbar:hover{
-    transition: 0.2s;
+    transition: 0.3s;
     opacity: 1;
 
 }
