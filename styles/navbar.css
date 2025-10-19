@@ -17,17 +17,25 @@ body {
 }
 .navbar{
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 3.125rem;
-    justify-content: space-between;
     border-radius: 0.75rem;
+    justify-content: space-between;
     border: 2px solid rgb(255, 255, 255) ;
     margin: 0.625rem;
     padding: 0 1em;
-    transition: 0.2s; /*transição pra quando sair do hover */
-    opacity: 0.8; 
+    transition: 0.2s; /*transição pra quando sair do hover */ 
     font-family: "Pixelify Sans",Arial, sans-serif;
     transition: 0.3s;
+}
+.loja-about{
+    display: flex;
+    justify-content: flex-start
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end
 }
 .navbar ul{
     list-style-type: none;
@@ -50,7 +58,6 @@ body {
 }
 .navbar:hover{
     transition: 0.3s;
-    opacity: 1;
 
 }
 #nomeloja{

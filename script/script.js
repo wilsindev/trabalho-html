@@ -1,7 +1,8 @@
-const botao = document.getElementById('botao')
+// obs: () => é abreviação pra function
+const botao = document.getElementById('botaoentrar')
 const textoriginal = botao.innerHTML
 
-botao.addEventListener('mouseover', ()=> {
+botao.addEventListener('mouseover', () => {
     botao.innerHTML = "> Entrar";
 });
 

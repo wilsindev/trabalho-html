@@ -20,6 +20,8 @@
     margin-top: 0.625rem;
     margin-bottom: 0.3125rem;
     transition: 0.3s;
+    font-size: 9px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
 }
 .Game-name a{
     text-decoration: none;

@@ -11,22 +11,7 @@
 .game-img img{ /*aqui na imagem do jogo */
     border-radius: 20px;
 }
-.stores{
-    position: relative;
-    flex-direction: column;
-    right: 655px;
-    margin-top: 20px;
-    gap: 1rem;
-}
-.stores a{
-    text-decoration: none;
-}
-.store img{
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-    border-radius: 20px;
-}
+
 .banner-game{
     width: 700px;
     height: 400px;
