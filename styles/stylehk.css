@@ -1,0 +1,36 @@
+
+.Game-infos{
+    display: flex;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+}
+.banner-game{
+    margin-top: 0.625rem;
+    margin-left: 2rem;
+}
+.banner-game img{
+    border-radius: 24px;
+    height: 400px;
+    width: 700px;
+}
+.game-introduction{
+    height: 200px;
+    text-align: justify;
+    margin: 40px 20px;
+}
+.game-about{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 12px;
+    gap: 10px;
+}
+.game-about a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.game-about a:hover{
+    text-decoration: underline;
+    transition: 0.4s;
+}
