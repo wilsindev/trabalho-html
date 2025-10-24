@@ -1,0 +1,44 @@
+body{
+    overflow: hidden;
+}
+.knight{
+    display: flex;
+}
+.knight{
+    width: 300px;
+    height: 150px;
+}
+.knight img{
+    width: 300px;
+    height: 300px;
+}
+.hkcharacter{
+    display: flex;
+    width: 200px;
+    height: 250px;
+}
+.maps{
+    position: relative;
+    left: 500px;
+    height: 400px;
+    width: 500px;
+    margin-top: 1rem;
+}
+.maps img{
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+}
+.seta {
+    display: flex;
+    width: 150px;
+    height: 140px;
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+    cursor: pointer;
+}
+.seta img{
+    width: 150px;
+    height: 140px;
+}

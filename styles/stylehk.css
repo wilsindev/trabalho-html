@@ -34,3 +34,13 @@
     text-decoration: underline;
     transition: 0.4s;
 }
+.gameplay{
+    width: 2rem;
+    height: 1rem;
+    margin: 150px; 
+}
+.gameplay img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}

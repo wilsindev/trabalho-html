@@ -3,7 +3,7 @@ const botao = document.getElementById('botaoentrar')
 const textoriginal = botao.innerHTML
 
 botao.addEventListener('mouseover', () => {
-    botao.innerHTML = "> Entrar";
+    botao.innerHTML = "> Start";
 });
 
 botao.addEventListener('mouseout', () => {
