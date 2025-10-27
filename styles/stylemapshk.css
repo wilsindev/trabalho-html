@@ -3,23 +3,19 @@ body{
 }
 .knight{
     display: flex;
-}
-.knight{
     width: 300px;
     height: 150px;
 }
+
 .knight img{
     width: 300px;
     height: 300px;
 }
-.hkcharacter{
-    display: flex;
-    width: 200px;
-    height: 250px;
-}
 .maps{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    left: 500px;
+    left: 800px;
     height: 400px;
     width: 500px;
     margin-top: 1rem;
@@ -27,18 +23,72 @@ body{
 .maps img{
     border-radius: 10px;
     height: 400px;
-    width: 700px;
+    width: 400px;
 }
 .seta {
     display: flex;
+    flex-direction: row;
     width: 150px;
     height: 140px;
     position: relative;
-    left: 800px;
-    bottom: 150px;
+    left: 60px;
+    bottom: 30px;
     cursor: pointer;
 }
 .seta img{
     width: 150px;
     height: 140px;
+}
+.setaesquerda{
+    transition: 0.2s;
+}
+.setadireita{
+    transition: 0.2s;
+}
+.setaesquerda:hover{
+    scale: 1.2;
+    transition: 0.2s;
+}
+.setadireita:hover{
+    scale: 1.2;
+    transition: 0.2s;
+}
+.chat{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    right: 150px;
+    opacity: 1;
+    width: 1000px;
+}
+.chat img{
+    width: 500px;
+    height: 700px;
+}
+.chat span{
+    position: absolute;
+    right: 40px;
+    bottom: 300px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 600px;
+    transition: 2s;
+}
+.knight:hover .chat{
+    opacity: 1;
+}
+#text{
+    position: absolute;
+    right: 680px;
+    bottom: 260px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 600px;
+    transition: 2s;
 }
