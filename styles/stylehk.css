@@ -15,6 +15,7 @@
 .game-introduction{
     height: 200px;
     text-align: justify;
+    line-height: 25px;
     margin: 40px 20px;
 }
 .game-about{
@@ -37,7 +38,9 @@
 .gameplay{
     width: 2rem;
     height: 1rem;
-    margin: 150px; 
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px; 
 }
 .gameplay img{
     width: 350px;

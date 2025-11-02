@@ -1,26 +1,15 @@
 body{
     overflow: hidden;
 }
-.knight{
-    display: flex;
-    width: 300px;
-    height: 150px;
-}
-
-.knight img{
-    width: 300px;
-    height: 300px;
-}
-.maps{
+.mapa {
     display: flex;
     flex-direction: column;
     position: relative;
     left: 800px;
     height: 400px;
-    width: 500px;
-    margin-top: 1rem;
+    width: 400px;
 }
-.maps img{
+.mapa img{
     border-radius: 10px;
     height: 400px;
     width: 400px;
@@ -53,42 +42,22 @@ body{
     scale: 1.2;
     transition: 0.2s;
 }
-.chat{
+
+.map-about{
     display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    bottom: 100px;
-    right: 150px;
-    opacity: 1;
-    width: 1000px;
-}
-.chat img{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
     width: 500px;
-    height: 700px;
-}
-.chat span{
-    position: absolute;
-    right: 40px;
-    bottom: 300px;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    height: 0px; 
     text-align: justify;
-    width: 600px;
-    transition: 2s;
+    line-height: 25px;
+    font-family: "Press Start 2P", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 50px;
 }
-.knight:hover .chat{
-    opacity: 1;
-}
-#text{
-    position: absolute;
-    right: 680px;
-    bottom: 260px;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    text-align: justify;
-    width: 600px;
-    transition: 2s;
+#citacao{
+    padding-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Comrant Garamond', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
