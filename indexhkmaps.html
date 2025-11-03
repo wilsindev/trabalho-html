@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/stylemapshk.css">
+    <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet" href="styles/stylemaps.css">
     <link rel="website icon" type="svg" href="imgs/logo.svg">
     <script src="script/scriptmaphk.js" defer></script>
     <title>Maps - Hollow Knight</title>
@@ -31,10 +31,17 @@
     <main>
         <div class="maps">
             <div class="map-about">
-                <span id="text">Localizada logo abaixo da superfície, a Encruzilhada Esquecida consiste em muitas
+                <div class="titulo-game">
+                    <h1 id="titulo">forgotten crossroads</h1>
+                </div>
+                <div class="texto">
+                    <span id="text">Localizada logo abaixo da superfície, a Encruzilhada Esquecida consiste em muitas
                     cavernas e estradas. Restos fossilizados de insetos cobrem a superfície das cavernas, com samambaias
                     claras crescendo através de rachaduras no solo.</span>
-                <span id="citacao">Ainda serpenteando por essas belas rodovias? Imagine como elas deviam ser no auge do reino, cheias de trânsito e cheias de vida! — Cornifer</span>
+                </div>
+                <div class="citacao">
+                    <span id="citacao">"Ainda serpenteando por essas belas rodovias? Imagine como elas deviam ser no auge do reino, cheias de trânsito e cheias de vida!" — Cornifer</span>
+                </div>
             </div>
             <div class="mapa">
                 <img src="imgs/forgottencross.svg" alt="" id="map">
@@ -44,6 +51,9 @@
                     <img src="imgs/setadireita.svg" alt="" id="setadireita" class="setadireita"
                         onclick="passarimagem()">
                 </div>
+            </div>
+            <div class="img-vessel">
+                <img src="imgs/vessel.svg" alt="Vessel Hollow Knight">
             </div>
         </div>
         </div>

@@ -1,0 +1,92 @@
+body{
+    overflow: hidden;
+}
+.mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 800px;
+    height: 400px;
+    width: 400px;
+    
+}
+.mapa img{
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    z-index: -2;
+}
+.seta {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 140px;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+.seta img{
+    width: 150px;
+    height: 140px;
+}
+.setaesquerda{
+    transition: 0.2s;
+}
+.setadireita{
+    transition: 0.2s;
+}
+.setaesquerda:hover{
+    scale: 1.2;
+    transition: 0.2s;
+}
+.setadireita:hover{
+    scale: 1.2;
+    transition: 0.2s;
+}
+
+.map-about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 500px;
+    height: 0px; 
+    text-align: justify;
+    line-height: 30px;
+    font-family: "Cinzel", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 30px;
+    font-size: 23px;
+}
+.texto{
+    margin-left: 20px;
+}
+.titulo-game{
+    font-family: "Cinzel", serif;
+    color: #E6E6E6;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #7BAFD4; /* isso ai é pra botar sombrinha no text  */
+    white-space: nowrap; /* impede quebra */
+}
+.titulo-game h1{
+    font-weight: 400;
+}
+
+#citacao{
+    color: #7BAFD4;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Comrant Garamond', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img-vessel{
+    position: relative;
+    left: 800px;
+    bottom: 200px;
+    width: 50px;
+    height: 0px;
+    z-index: -1;
+}
+.img-vessel img{
+    width: 800px;
+}
