@@ -1,0 +1,37 @@
+body{
+    height: 150vh;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.about-team{
+    display: flex;
+    flex-direction: column;
+}
+.text-introduct{
+    font-family: "Cinzel", serif;
+    color: #E6E6E6;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.devs{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    gap: 100px;
+    font-family: "Cinzel", serif;
+}
+.devs img{
+    transition: 0.5s;
+}
+.devs img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.about-dev {
+    width: 300px;
+}
