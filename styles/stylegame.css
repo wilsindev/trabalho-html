@@ -48,3 +48,14 @@
     height: 250px;
     border-radius: 20px;
 }
+.img-radiance{
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+    width: 50px;
+    height: 0px;
+    z-index: 1;
+}
+.img-radiance img{
+    width: 200px;
+}

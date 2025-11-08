@@ -1,0 +1,158 @@
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.Dlcs{
+    display: flex;
+    flex-direction: column;
+}
+/* configs layout card */
+.titulo{
+    margin-top:  20px;
+    font-family: "Cinzel", serif;
+    color: #E6E6E6;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #7BAFD4; /* isso ai é pra botar sombrinha no text  */
+    white-space: nowrap; /* impede quebra */
+}
+.titulo h1{
+    font-weight: 400;
+    font-size: 36px;
+}
+.cards-dlc{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 70px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.img-dlc img{
+    margin-top: 10px;
+    width: 250px;
+    padding: 25px;
+}
+/* end */
+/* Grimm Troupe */
+.dlc-card1 {
+    border-radius: 15px;
+    width: 400px;
+    border: solid 2px #B11226;
+    box-shadow: 0 0  20px #B11226;
+    transition: 0.3s;
+    position: relative; /* necessário pro .imgs funcionar */
+}
+
+.about-dlc1{
+    display: flex;
+    flex-direction: column;
+    font-family: "Cinzel";
+    padding-left: 5px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 3px 1px 5px #7A0C17;
+    gap: 10px;
+}
+/* Godmaster */
+.about-dlc2{
+    display: flex;
+    flex-direction: column;
+    font-family: "Cinzel";
+    padding-left: 5px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 3px 1px 5px #EACB5E;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.dlc-card2 {
+    border-radius: 15px;
+    width: 400px;
+    border: solid 2px #EACB5E;
+    box-shadow: 0 0  20px #EACB5E;
+    transition: 0.3s;
+    position: relative;
+}
+
+
+/* Hidden Dreams */
+.dlc-card3 {
+    border-radius: 15px;
+    width: 400px;
+    border: solid 2px #8A89C0;
+    box-shadow: 0 0  20px #8A89C0;
+    transition: 0.3s;
+    position: relative; 
+}
+.about-dlc3{
+    display: flex;
+    flex-direction: column;
+    font-family: "Cinzel";
+    padding-left: 5px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 3px 1px 5px #D3D4F0;
+    gap: 10px;
+}
+
+/* Life blood */
+.dlc-card4{
+    border-radius: 15px;
+    width: 400px;
+    border: solid 2px #29B6F6;
+    box-shadow: 0 0  20px #29B6F6;
+    transition: 0.3s;
+    position: relative; 
+}
+.about-dlc4{
+    display: flex;
+    flex-direction: column;
+    font-family: "Cinzel";
+    padding-left: 5px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-shadow: 3px 1px 5px #A6EFFF;
+    gap: 10px;
+}
+
+/* personagens */
+.imgs {
+    position: absolute;
+    bottom: -20px;
+    right: -30px;
+    z-index: 2;
+}
+.imgs img{
+    width: 100px;
+    height: 100px;
+}
+
+/* interativo */
+.dlc-card1:hover, .dlc-card2:hover, .dlc-card3:hover, .dlc-card4:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 35px 8px rgba(255, 255, 255, 0.15);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 764px){
+    body{
+        overflow: visible;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .cards-dlc{
+        flex-wrap: wrap;
+    }
+}
