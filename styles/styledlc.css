@@ -33,9 +33,11 @@ body{
 .img-dlc img{
     margin-top: 10px;
     width: 250px;
+    height: 100px;
     padding: 25px;
 }
 /* end */
+
 /* Grimm Troupe */
 .dlc-card1 {
     border-radius: 15px;
@@ -43,7 +45,7 @@ body{
     border: solid 2px #B11226;
     box-shadow: 0 0  20px #B11226;
     transition: 0.3s;
-    position: relative; /* necessário pro .imgs funcionar */
+    position: relative; /* necessário pro .imgs funcionar pra eles ficarem absolute em relação ao dlc card*/
 }
 
 .about-dlc1{
@@ -129,7 +131,7 @@ body{
 /* personagens */
 .imgs {
     position: absolute;
-    bottom: -20px;
+    bottom: -50px;
     right: -30px;
     z-index: 2;
 }
@@ -141,7 +143,7 @@ body{
 /* interativo */
 .dlc-card1:hover, .dlc-card2:hover, .dlc-card3:hover, .dlc-card4:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 35px 8px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 35px 8px rgba(255, 255, 255, 0.15); /* deslocamento x, deslocamento y, blur do brilho, espalhamento do brilho */
     transition: 0.3s;
 }
 
