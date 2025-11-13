@@ -60,6 +60,10 @@ body{
     text-shadow: 3px 1px 5px #7A0C17;
     gap: 10px;
 }
+.citacao1{
+    color: #E02E2E;
+    font-style: italic;
+}
 /* Godmaster */
 .about-dlc2{
     display: flex;
@@ -82,7 +86,10 @@ body{
     transition: 0.3s;
     position: relative;
 }
-
+.citacao2{
+    font-style: italic;
+    color: #EACB5E;
+}
 
 /* Hidden Dreams */
 .dlc-card3 {
@@ -104,6 +111,10 @@ body{
     letter-spacing: 1px;
     text-shadow: 3px 1px 5px #D3D4F0;
     gap: 10px;
+}
+.citacao3{
+    font-style: italic;
+    color: #D3D4F0;
 }
 
 /* Life blood */
@@ -127,6 +138,10 @@ body{
     text-shadow: 3px 1px 5px #A6EFFF;
     gap: 10px;
 }
+.citacao4{
+    font-style: italic;
+    color: #29B6F6;
+}
 
 /* personagens */
 .imgs {
@@ -145,6 +160,7 @@ body{
     transform: scale(1.1);
     box-shadow: 0 0 35px 8px rgba(255, 255, 255, 0.15); /* deslocamento x, deslocamento y, blur do brilho, espalhamento do brilho */
     transition: 0.3s;
+    cursor: default;
 }
 
 @media screen and (max-width: 764px){

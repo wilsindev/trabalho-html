@@ -4,17 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap');
-
+/* ver se essebackground é melhor: https://external-preview.redd.it/iaMnzdRn7xiYtAmeatySxHdLeZW4ZmxtnxfcUGX-oNk.jpg?auto=webp&s=6adc0349cd0d7221c0873a1673d4b05a8b878d68 */
 body {
-    background-image: url(https://external-preview.redd.it/iaMnzdRn7xiYtAmeatySxHdLeZW4ZmxtnxfcUGX-oNk.jpg?auto=webp&s=6adc0349cd0d7221c0873a1673d4b05a8b878d68);
+    /* background-image: url(https://wallpapers.com/images/hd/light-black-background-1920-x-1080-ov3r9u7u0ttpzwsv.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-  /* background: radial-gradient(
-      circle at center,
-      #0d0f14 0%,
-      #05060a 40%,
-     #010203 100%
-    ); */
+    background-size: cover; */
+    background: radial-gradient(circle at center, #1a1c2c, #000);
     color: white;
     text-align: center;
     padding: 0;
