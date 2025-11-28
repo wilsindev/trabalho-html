@@ -7,5 +7,5 @@ botao.addEventListener('mouseover', () => {
 });
 
 botao.addEventListener('mouseout', () => {
-    botao.innerHTML = textoriginal
-})
+    botao.innerHTML = textoriginal;
+});
