@@ -33,6 +33,12 @@ const citacoes = {
 // Cria lista dos mapas do game
 const mapas = ['imgs/forgottencross.svg', 'imgs/greenpath.svg', 'imgs/ermosfungicos.svg', 'imgs/cityoftears.svg', 'imgs/crystalpeak.svg', 'imgs/royalwaterways.svg', 'imgs/ancientbasin.svg', 'imgs/deepnest.svg' ,'imgs/kingdomsedge.svg', 'imgs/theabyss.svg', 'imgs/queengarden.svg', 'imgs/thehive.svg', 'imgs/fogycanyon.svg'];
 const mapas_nome = ['Forgotten Crossroads', 'Green Path', 'Fungal Wastes', 'City of Tears', 'Crystal Peak', 'Royal Waterways', 'Ancient Basin', 'Deep Nest', 'Kingdoms Edge', 'The Abyss','Queen\'s Gardens', 'The Hive', 'Fog Canyon']
+// baixa imagem antes dela aparecer, resolvendo o meu problema de não carregar no pages
+mapas.forEach(src => {
+  const img = new Image();
+  img.src = src;
+});
+
 let imagematual = 0;
 const map = document.getElementById("map");
 const direita = document.getElementById("setadireita");
