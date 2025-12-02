@@ -66,8 +66,8 @@ body{
     font-family: "Cinzel", serif;
     color: #E6E6E6;
     letter-spacing: 2px;
-    text-shadow: 0 0 8px #7BAFD4; /* isso ai é pra botar sombrinha no text  */
-    white-space: nowrap; /* impede quebra */
+    text-shadow: 0 0 8px #7BAFD4; 
+    white-space: nowrap; 
 }
 .titulo-game h1{
     font-weight: 400;
